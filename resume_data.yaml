@@ -13,13 +13,13 @@ experience:
     location: "Toronto, Canada"
     duration: "07/2024 – Present"
     responsibilities:
-      - Drove the migration of Trino from x86 to Graviton instances, achieving a 50% performance improvement while reducing compute costs by ~11%.
-      - Spearheaded the transition from EMR on EC2 to Trino on EKS, enhancing reliability and reducing operational costs by ~50%, while significantly improving cluster startup times and enabling dynamic autoscaling.
-      - Designed and implemented an API-based access control service for the data lake, eliminating manual support tickets and reducing data access request time by ~90%.
-      - Built Dynatrace dashboards and proactive alerting systems for big data services, improving incident response time by ~40% and reducing Mean Time to Recovery (MTTR).
-      - Centralized log aggregation by forwarding structured logs to Splunk, streamlining observability and reducing debugging time by ~35% for the on-call team.
-      - Streamlined onboarding for new data initiatives, automating the setup of underlying infrastructure components, which accelerated team onboarding by ~60% and significantly reduced support overhead.
-      - Deployed Spark History Server on EKS and seamlessly integrated it with existing data workflows to improve developer efficiency and reduce Spark job troubleshooting time by ~50%.
+      - "Migrated Trino from x86 to Graviton instances, achieving a 50% performance improvement while reducing compute costs by 11%."
+      - "Spearheaded the transition from EMR on EC2 to Trino on EKS, enhancing reliability and reducing operational costs by 50%, while significantly improving cluster startup times and enabling dynamic autoscaling."
+      - "Designed and implemented an API-based access control service for the data lake, eliminating manual support tickets and reducing data access request time by 90%."
+      - "Built Dynatrace dashboards and proactive alerting systems for big data services, improving incident response time by 40% and reducing Mean Time to Recovery (MTTR)."
+      - "Centralized log aggregation by forwarding structured logs to Splunk, streamlining observability and reducing debugging time by 35% for the on-call team."
+      - "Streamlined onboarding for new data initiatives by automating the setup of underlying infrastructure components, which accelerated team onboarding by 60% and significantly reduced support overhead."
+      - "Deployed Spark History Server on EKS and seamlessly integrated it with existing data workflows to improve developer efficiency and reduce Spark job troubleshooting time by 50%."
 
   - company: "16 Bit Inc"
     title: "Software Engineer"
@@ -38,7 +38,7 @@ experience:
     duration: "07/2021 – 08/2022"
     responsibilities:
       - "Achieved a 50% decrease in bug reports by architecting a Linux system daemon that monitored application health, executed automatic restarts upon crashes, and meticulously recorded root causes for analysis."
-      - "Boosted developer productivity by implementing efficient bash automation scripts for virtual machine configuration saving 3 hours per week."
+      - "Boosted developer productivity by implementing efficient bash automation scripts for virtual machine configuration saving 3 hours per week per developer."
 
 education:
   - institution: "University of Toronto"

@@ -21,7 +21,7 @@ from reportlab.platypus import (
     HRFlowable,
     Flowable,
 )
-from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT
+from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT, TA_JUSTIFY
 from reportlab.pdfgen import canvas
 
 
@@ -176,6 +176,7 @@ class ResumeGenerator:
                 leftIndent=dash_space_width,  # Exact width of "- " in this font/size
                 firstLineIndent=-dash_space_width,  # Pull first line back to margin
                 spaceAfter=2,
+                alignment=TA_JUSTIFY,
             )
         )
 

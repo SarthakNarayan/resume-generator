@@ -1,0 +1,94 @@
+personal:
+  name: "Sarthak Narayan"
+  email: "sarthak.narayang@gmail.com"
+  phone: "+1 (647) 618-7671"
+  location: "Toronto, Canada"
+  linkedin: "linkedin.com/in/sarthaknarayan"
+  github: "github.com/SarthakNarayan"
+  website: "sarthaknarayan.net"
+
+experience:
+  - company: "Autodesk"
+    title: "Software Engineer"
+    location: "Toronto, Canada"
+    duration: "07/2024 – Present"
+    responsibilities:
+      - Drove the migration of Trino from x86 to Graviton instances, achieving a 50% performance improvement while reducing compute costs by ~11%.
+      - Spearheaded the transition from EMR on EC2 to Trino on EKS, enhancing reliability and reducing operational costs by ~50%, while significantly improving cluster startup times and enabling dynamic autoscaling.
+      - Designed and implemented an API-based access control service for the data lake, eliminating manual support tickets and reducing data access request time by ~90%.
+      - Built Dynatrace dashboards and proactive alerting systems for big data services, improving incident response time by ~40% and reducing Mean Time to Recovery (MTTR).
+      - Centralized log aggregation by forwarding structured logs to Splunk, streamlining observability and reducing debugging time by ~35% for the on-call team.
+      - Streamlined onboarding for new data initiatives, automating the setup of underlying infrastructure components, which accelerated team onboarding by ~60% and significantly reduced support overhead.
+      - Deployed Spark History Server on EKS and seamlessly integrated it with existing data workflows to improve developer efficiency and reduce Spark job troubleshooting time by ~50%.
+
+  - company: "16 Bit Inc"
+    title: "Software Engineer"
+    location: "Toronto, Canada"
+    duration: "09/2022 – 07/2024"
+    responsibilities:
+      - "Achieved a notable 50% decrease in costs by redesigning the AWS architecture, while simultaneously strengthening product security."
+      - "Streamlined development efficiency by establishing an automated CI/CD pipeline with GitHub Actions, enhancing the overall code quality, and expediting release cycles by 50%."
+      - "Optimized application deployment by using ArgoCD with Kubernetes, streamlining updates and installations leading to a reduction in downtime and an increased operational efficiency of 40%."
+      - "Maximized reliability through proactive system monitoring and alerting with Prometheus and Grafana, reducing downtime by 30% and ensuring seamless operations."
+      - "Enhanced software reliability by writing thorough unit, integration, and end-to-end tests resulting in comprehensive code coverage and reducing post-release bugs by 50%."
+
+  - company: "Oracle"
+    title: "Member Technical Staff"
+    location: "Bengaluru, India"
+    duration: "07/2021 – 08/2022"
+    responsibilities:
+      - "Achieved a 50% decrease in bug reports by architecting a Linux system daemon that monitored application health, executed automatic restarts upon crashes, and meticulously recorded root causes for analysis."
+      - "Boosted developer productivity by implementing efficient bash automation scripts for virtual machine configuration saving 3 hours per week."
+
+education:
+  - institution: "University of Toronto"
+    degree: "Masters in Computer Science"
+    duration: "09/2022 – 12/2023"
+    location: "Toronto, Canada"
+
+  # - institution: "National Institute of Technology Trichy"
+  #   degree: "Bachelor of Technology"
+  #   duration: "07/2017 - 05/2021"
+  #   location: "Trichy, India"
+
+skills:
+  - "AWS"
+  - "Linux/Unix"
+  - "Terraform"
+  - "Kubernetes (k8s)"
+  - "Python"
+  - "Testing"
+  - "Docker"
+  - "Git"
+  - "Automation"
+  - "Github Actions"
+  - "Prometheus"
+  - "Grafana"
+  - "Helm"
+  - "Infrastructure as Code (IaC)"
+  - "ArgoCD"
+  - "GitOps"
+  - "Backend"
+  - "Microservices"
+  - "JIRA"
+  - "Monitoring"
+  - "Observability"
+  - "Cloud"
+  - "SaaS"
+  - "PostgreSQL"
+  - "Teamwork"
+  - "Networking"
+  - "DevOps"
+  - "Agile/Scrum"
+  - "Object Oriented Programming (OOP)"
+  - "Communication Skills"
+  - "Data Structures & Algorithms"
+  - "CI/CD"
+  - "System Design"
+  - "SRE"
+  - "Distributed Systems"
+  - "Collaboration"
+  - "Problem Solving"
+  - "Cross Functional"
+  - "Ownership"
+  - "Leadership"

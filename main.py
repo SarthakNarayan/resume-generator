@@ -176,7 +176,6 @@ class ResumeGenerator:
                 leftIndent=dash_space_width,  # Exact width of "- " in this font/size
                 firstLineIndent=-dash_space_width,  # Pull first line back to margin
                 spaceAfter=2,
-                alignment=TA_JUSTIFY,
             )
         )
 
@@ -399,10 +398,10 @@ class ResumeGenerator:
         doc = SimpleDocTemplate(
             self.output_file,
             pagesize=letter,
-            rightMargin=0.3 * inch,
-            leftMargin=0.3 * inch,
-            topMargin=0.2 * inch,
-            bottomMargin=0.2 * inch,
+            rightMargin=0.4 * inch,
+            leftMargin=0.4 * inch,
+            topMargin=0.3 * inch,
+            bottomMargin=0.3 * inch,
         )
 
         story = []

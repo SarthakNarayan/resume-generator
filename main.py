@@ -297,7 +297,7 @@ class ResumeGenerator:
             if "institution" in edu and "duration" in edu:
                 institution_duration_line = TwoColumnLine(
                     left_text=edu["institution"],
-                    right_text=edu["duration"],
+                    right_text=edu["location"],
                     left_style={
                         "fontName": "Helvetica-Bold",
                         "fontSize": 12,
@@ -313,10 +313,10 @@ class ResumeGenerator:
                 story.append(Spacer(1, 0.02 * inch))
 
             # Degree (left) - Location (right) line
-            if "degree" in edu and "location" in edu:
+            if "degree" in edu and "duration" in edu:
                 degree_location_line = TwoColumnLine(
                     left_text=edu["degree"],
-                    right_text=edu["location"],
+                    right_text=edu["duration"],
                     left_style={
                         "fontName": "Helvetica-Oblique",
                         "fontSize": 11,

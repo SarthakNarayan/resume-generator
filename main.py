@@ -63,7 +63,7 @@ class ResumeGenerator:
     """Generate professional resume PDF from structured input data"""
 
     def __init__(
-        self, input_file="resume_data.yaml", output_file="Generated_Resume.pdf"
+        self, input_file="resume_data.yaml", output_file="Narayan, Sarthak - Resume.pdf"
     ):
         self.input_file = input_file
         self.output_file = output_file

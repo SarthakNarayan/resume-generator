@@ -84,9 +84,6 @@ skills:
   - "Cross-functional"
   - "Ownership"
   - "Leadership"
-  # --- 
-  # - "Monitoring"
-  # - "Alerting"
-  # - "Observability"
+  - "Scalability"
   # ---
-  - "Integration tests, Java, Clean code, HTTP, JSON, MySQL, Protocol Buffers"
+  - ""

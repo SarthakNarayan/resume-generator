@@ -74,7 +74,7 @@ skills:
   - "Agile/Scrum"
   - "OOP"
   - "Communication"
-  - "Data Structures & Algorithms"
+  - "Data Structures and Algorithms"
   - "CI/CD"
   - "System Design"
   - "SRE"
@@ -84,6 +84,8 @@ skills:
   - "Cross-functional"
   - "Ownership"
   - "Leadership"
-  - "Scalability"
+  # ---
+  # - "Scalability"
+  # - "Availability"
   # ---
   - ""
